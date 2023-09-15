@@ -1,0 +1,14 @@
+{
+  "name": "fit-text",
+  "version": "1.0.0",
+  "private": false,
+  "source": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "staging": "vercel",
+    "ship": "vercel --prod"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
