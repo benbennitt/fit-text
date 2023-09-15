@@ -16,14 +16,24 @@ body {
   background-color: black;
 }
 
-section {
+#examples {
+  display: flex;
   margin: 20vh auto;
-  max-width: 300px;
-  background-color: #222;
-  padding: 1rem;
-  display: grid;
-  gap: 1rem;
+  max-width: 650px;
+  gap: 0.1em;
+  color: white;
   border-radius: 2rem;
+  overflow: hidden;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  gap: 1rem;
+  padding: 3rem;
+  text-align: center;
+  background-color: #111;
 }
 
 .button {
